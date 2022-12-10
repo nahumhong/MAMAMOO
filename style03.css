@@ -2,6 +2,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position:fixed;
+    top:0;
+    width: 100%;
     padding: 20px 8% 0px 8%;
     background-color: black;
 }
@@ -30,232 +33,54 @@ nav ul li a:hover{
 
 .Solar {
     padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: row-reverse;
-		-webkit-flex-direction: row-reverse;
-		-ms-flex-direction: row-reverse;
-		flex-direction: row-reverse;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		position: relative;
-		overflow-x: hidden;
-		text-align: left;
-
     background-image: linear-gradient(to bottom, rgba(167, 118, 246, 0.451),80%,rgb(0, 0, 0)); 
 }
 
-    .Solar img{
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-        -moz-flex-shrink: 0;
-        -webkit-flex-shrink: 0;
-        -ms-flex-shrink: 0;
-        flex-shrink: 0;
-        width: 35%;
-        min-width: 25rem;
-        border-radius: 0;
-    }
+.Solar img{
+    width: 35%;
+}
 
-    .solar_text{
-        padding: 7rem 7rem 5rem 7rem ;
-			-moz-align-self: center;
-			-webkit-align-self: center;
-			-ms-align-self: center;
-			align-self: center;
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			-moz-flex-shrink: 1;
-			-webkit-flex-shrink: 1;
-			-ms-flex-shrink: 1;
-			flex-shrink: 1;
-			width: 65%;
-			max-width: 64rem;
-			margin: 0 auto;
-    }    
+.solar_text{
+
+}    
 
 .Moonbyul {
-    padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: row-reverse;
-		-webkit-flex-direction: row-reverse;
-		-ms-flex-direction: row-reverse;
-		flex-direction: row-reverse;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		position: relative;
-		overflow-x: hidden;
-		text-align: left;
-    background-color: black;
+	text-align: left;
+}
+
+.Moonbyul img{
 
 }
 
-    .Moonbyul img{
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-        -moz-flex-shrink: 0;
-        -webkit-flex-shrink: 0;
-        -ms-flex-shrink: 0;
-        flex-shrink: 0;
-        width: 35%;
-        min-width: 25rem;
-        border-radius: 0;
+.moonbyul_text{
+	margin: 0 auto;
+    color: rgb(0, 0, 0);
     }
 
-    .moonbyul_text{
-        padding: 7rem 7rem 5rem 7rem ;
-			-moz-align-self: center;
-			-webkit-align-self: center;
-			-ms-align-self: center;
-			align-self: center;
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			-moz-flex-shrink: 1;
-			-webkit-flex-shrink: 1;
-			-ms-flex-shrink: 1;
-			flex-shrink: 1;
-			width: 65%;
-			max-width: 64rem;
-			margin: 0 auto;
-    }
-
-.Wheein{
-    padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: row-reverse;
-		-webkit-flex-direction: row-reverse;
-		-ms-flex-direction: row-reverse;
-		flex-direction: row-reverse;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		position: relative;
-		overflow-x: hidden;
-		text-align: left;
+.Wheein{    
+    text-align: left;
     background-color: black; 
 }
 
-    .Wheein img{
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-        -moz-flex-shrink: 0;
-        -webkit-flex-shrink: 0;
-        -ms-flex-shrink: 0;
-        flex-shrink: 0;
-        width: 35%;
-        min-width: 25rem;
-        border-radius: 0;
-    }
+.Wheein img{
 
-    .wheein_text{
-        padding: 7rem 7rem 5rem 7rem ;
-			-moz-align-self: center;
-			-webkit-align-self: center;
-			-ms-align-self: center;
-			align-self: center;
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			-moz-flex-shrink: 1;
-			-webkit-flex-shrink: 1;
-			-ms-flex-shrink: 1;
-			flex-shrink: 1;
-			width: 65%;
-			max-width: 64rem;
-			margin: 0 auto;
-        color: white;
-    }
+}
 
-    .Hwasa{
-        padding: 7rem 7rem 5rem 7rem ;
-             -moz-align-items: center;
-            -webkit-align-items: center;
-            -ms-align-items: center;
-            align-items: center;
-            display: -moz-flex;
-            display: -webkit-flex;
-            display: -ms-flex;
-            display: flex;
-            -moz-flex-direction: row-reverse;
-            -webkit-flex-direction: row-reverse;
-            -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-            -moz-justify-content: center;
-            -webkit-justify-content: center;
-            -ms-justify-content: center;
-            justify-content: center;
-            position: relative;
-            overflow-x: hidden;
-            text-align: right;
-            background-color: black; 
-        }
-        .Hwasa img{
-            -moz-flex-grow: 0;
-            -webkit-flex-grow: 0;
-            -ms-flex-grow: 0;
-            flex-grow: 0;
-            -moz-flex-shrink: 0;
-            -webkit-flex-shrink: 0;
-            -ms-flex-shrink: 0;
-            flex-shrink: 0;
-            width: 35%;
-            min-width: 25rem;
-            border-radius: 0;
-        }
+.wheein_text{
+    color: white;
+}
+
+.Hwasa{
+    text-align: left;
+    background-color: black; 
+}
+
+.Hwasa img{
+
+}
     
-        .hwasa_text{
-            padding: 7rem 7rem 5rem 7rem ;
-                -moz-align-self: center;
-                -webkit-align-self: center;
-                -ms-align-self: center;
-                align-self: center;
-                -moz-flex-grow: 1;
-                -webkit-flex-grow: 1;
-                -ms-flex-grow: 1;
-                flex-grow: 1;
-                -moz-flex-shrink: 1;
-                -webkit-flex-shrink: 1;
-                -ms-flex-shrink: 1;
-                flex-shrink: 1;
-                width: 65%;
-                max-width: 64rem;
-                margin: 0 auto;
-            color: white;
-        }
+.hwasa_text{
+
+    color: white;
+}
 
